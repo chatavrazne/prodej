@@ -104,15 +104,19 @@ a { color: inherit; }
   position: relative;
   z-index: 1;
   max-width: 680px;
-  background: rgba(255,255,255,.50);
-  border: 1px solid rgba(255,255,255,.45);
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.25);
   border-radius: 28px;
   padding: 36px 40px;
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
 }
 
-/* ── EYEBROW ── */
+.hero-card { color: #fff; }
+.hero-card .eyebrow { color: rgba(255,255,255,.75); }
+.hero-card .lead { color: rgba(255,255,255,.88); }
+.hero-card h1 { color: #fff; }
+.hero-card .price { color: #fff; }
+.hero-card .secondary { background: rgba(255,255,255,.15); color: #fff; border-color: rgba(255,255,255,.4); }
 .eyebrow {
   text-transform: uppercase;
   font-weight: 800;

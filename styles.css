@@ -112,11 +112,7 @@ a { color: inherit; }
 }
 
 .hero-card { color: #fff; }
-.hero-card .eyebrow { color: #fff; }
-.hero-card .lead { color: #fff; }
-.hero-card h1 { color: #fff; }
-.hero-card .price { color: #fff; }
-.hero-card .secondary { background: rgba(255,255,255,.12); color: #fff; border-color: rgba(255,255,255,.35); }
+
 .eyebrow {
   text-transform: uppercase;
   font-weight: 800;
@@ -144,6 +140,12 @@ a { color: inherit; }
   color: #3a4a40;
   margin: 0 0 20px;
 }
+
+.hero-card .eyebrow { color: #fff; }
+.hero-card .lead { color: #fff; }
+.hero-card h1 { color: #fff; }
+.hero-card .price { color: #fff; }
+.hero-card .secondary { background: rgba(255,255,255,.12); color: #fff; border-color: rgba(255,255,255,.35); }
 
 .price {
   font-size: 30px;

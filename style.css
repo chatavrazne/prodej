@@ -104,11 +104,12 @@ a { color: inherit; }
   position: relative;
   z-index: 1;
   max-width: 680px;
-  background: rgba(255,255,255,.95);
-  border: 1px solid rgba(255,255,255,.7);
+  background: rgba(255,255,255,.50);
+  border: 1px solid rgba(255,255,255,.45);
   border-radius: 28px;
   padding: 36px 40px;
   box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
 }
 
 /* ── EYEBROW ── */

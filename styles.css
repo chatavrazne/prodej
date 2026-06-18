@@ -112,8 +112,8 @@ a { color: inherit; }
 }
 
 .hero-card { color: #fff; }
-.hero-card .eyebrow { color: rgba(255,255,255,.65); }
-.hero-card .lead { color: rgba(255,255,255,.85); }
+.hero-card .eyebrow { color: #fff; }
+.hero-card .lead { color: #fff; }
 .hero-card h1 { color: #fff; }
 .hero-card .price { color: #fff; }
 .hero-card .secondary { background: rgba(255,255,255,.12); color: #fff; border-color: rgba(255,255,255,.35); }
@@ -134,7 +134,7 @@ a { color: inherit; }
 }
 
 .hero h1 {
-  font-size: clamp(36px, 5.5vw, 68px);
+  font-size: clamp(28px, 4vw, 52px);
   margin: 0 0 16px;
   color: var(--text);
 }

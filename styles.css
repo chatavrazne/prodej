@@ -108,6 +108,7 @@ a { color: inherit; }
   border: 1px solid rgba(255,255,255,.25);
   border-radius: 28px;
   padding: 36px 40px;
+  backdrop-filter: blur(3px);
 }
 
 .hero-card { color: #fff; }
@@ -230,11 +231,11 @@ a { color: inherit; }
 .features article::before {
   content: "";
   display: block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  width: 28px;
+  height: 3px;
+  border-radius: 999px;
   background: var(--green);
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .features h3 { font-size: 15px; margin: 0 0 8px; }
